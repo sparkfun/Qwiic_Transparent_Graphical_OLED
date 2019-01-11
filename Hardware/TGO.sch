@@ -146,147 +146,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S" xrefpart="/%S.%C%R">
 <libraries>
-<library name="TGO">
-<packages>
-<package name="FPC05024-42201">
-<description>SparkFun SKU CONN-14195</description>
-<smd name="P$1" x="-5.75" y="0.4" dx="0.3" dy="0.8" layer="1"/>
-<smd name="P$2" x="-5.25" y="0.4" dx="0.3" dy="0.8" layer="1"/>
-<smd name="P$3" x="-4.75" y="0.4" dx="0.3" dy="0.8" layer="1"/>
-<smd name="P$4" x="-4.25" y="0.4" dx="0.3" dy="0.8" layer="1"/>
-<smd name="P$5" x="-3.75" y="0.4" dx="0.3" dy="0.8" layer="1"/>
-<smd name="P$6" x="-3.25" y="0.4" dx="0.3" dy="0.8" layer="1"/>
-<smd name="P$7" x="-2.75" y="0.4" dx="0.3" dy="0.8" layer="1"/>
-<smd name="P$8" x="-2.25" y="0.4" dx="0.3" dy="0.8" layer="1"/>
-<smd name="P$9" x="-1.75" y="0.4" dx="0.3" dy="0.8" layer="1"/>
-<smd name="P$10" x="-1.25" y="0.4" dx="0.3" dy="0.8" layer="1"/>
-<smd name="P$11" x="-0.75" y="0.4" dx="0.3" dy="0.8" layer="1"/>
-<smd name="P$12" x="-0.25" y="0.4" dx="0.3" dy="0.8" layer="1"/>
-<smd name="P$13" x="0.25" y="0.4" dx="0.3" dy="0.8" layer="1"/>
-<smd name="P$14" x="0.75" y="0.4" dx="0.3" dy="0.8" layer="1"/>
-<smd name="P$15" x="1.25" y="0.4" dx="0.3" dy="0.8" layer="1"/>
-<smd name="P$16" x="1.75" y="0.4" dx="0.3" dy="0.8" layer="1"/>
-<smd name="P$17" x="2.25" y="0.4" dx="0.3" dy="0.8" layer="1"/>
-<smd name="P$18" x="2.75" y="0.4" dx="0.3" dy="0.8" layer="1"/>
-<smd name="P$19" x="3.25" y="0.4" dx="0.3" dy="0.8" layer="1"/>
-<smd name="P$20" x="3.75" y="0.4" dx="0.3" dy="0.8" layer="1"/>
-<smd name="P$21" x="4.25" y="0.4" dx="0.3" dy="0.8" layer="1"/>
-<smd name="P$22" x="4.75" y="0.4" dx="0.3" dy="0.8" layer="1"/>
-<smd name="P$23" x="5.25" y="0.4" dx="0.3" dy="0.8" layer="1"/>
-<smd name="P$24" x="5.75" y="0.4" dx="0.3" dy="0.8" layer="1"/>
-<rectangle x1="-6.95" y1="-2.5" x2="-6.55" y2="-1.7" layer="29"/>
-<rectangle x1="6.55" y1="-2.5" x2="6.95" y2="-1.7" layer="29"/>
-<dimension x1="-7.5" y1="-2.5" x2="-7.5" y2="0.9" x3="-8" y3="-0.8" textsize="1.778" layer="47"/>
-<dimension x1="-6.95" y1="-3.1" x2="6.95" y2="-3.35" x3="0" y3="-5.65" textsize="1.778" layer="47" dtype="horizontal"/>
-<polygon width="0.1524" layer="1">
-<vertex x="-6.3" y="0.6"/>
-<vertex x="-6.3" y="-2.7"/>
-<vertex x="-6.4" y="-2.8"/>
-<vertex x="-7.1" y="-2.8"/>
-<vertex x="-7.2" y="-2.7"/>
-<vertex x="-7.2" y="0.6"/>
-<vertex x="-7" y="0.8"/>
-<vertex x="-6.5" y="0.8"/>
-</polygon>
-<polygon width="0.1524" layer="1">
-<vertex x="7.2" y="0.6"/>
-<vertex x="7.2" y="-2.7"/>
-<vertex x="7.1" y="-2.8"/>
-<vertex x="6.4" y="-2.8"/>
-<vertex x="6.3" y="-2.7"/>
-<vertex x="6.3" y="0.6"/>
-<vertex x="6.5" y="0.8"/>
-<vertex x="7" y="0.8"/>
-</polygon>
-<wire x1="0" y1="0.25" x2="7" y2="0.25" width="0.1524" layer="51"/>
-<wire x1="7" y1="0.25" x2="7" y2="-2.65" width="0.1524" layer="51"/>
-<wire x1="7" y1="-2.65" x2="-7" y2="-2.65" width="0.1524" layer="51"/>
-<wire x1="-7" y1="-2.65" x2="-7" y2="0.25" width="0.1524" layer="51"/>
-<wire x1="-7" y1="0.25" x2="0" y2="0.25" width="0.1524" layer="51"/>
-<text x="-5.08" y="-2.54" size="1.778" layer="27">&gt;NAME</text>
-<text x="-5.08" y="-5.08" size="1.778" layer="27">&gt;VALUE</text>
-<rectangle x1="-5.6" y1="-0.1" x2="-5.4" y2="0.9" layer="41"/>
-<rectangle x1="-5.1" y1="-0.1" x2="-4.9" y2="0.9" layer="41"/>
-<rectangle x1="-4.6" y1="-0.1" x2="-4.4" y2="0.9" layer="41"/>
-<rectangle x1="-4.1" y1="-0.1" x2="-3.9" y2="0.9" layer="41"/>
-<rectangle x1="-3.6" y1="-0.1" x2="-3.4" y2="0.9" layer="41"/>
-<rectangle x1="-3.1" y1="-0.1" x2="-2.9" y2="0.9" layer="41"/>
-<rectangle x1="-2.6" y1="-0.1" x2="-2.4" y2="0.9" layer="41"/>
-<rectangle x1="-2.1" y1="-0.1" x2="-1.9" y2="0.9" layer="41"/>
-<rectangle x1="-1.6" y1="-0.1" x2="-1.4" y2="0.9" layer="41"/>
-<rectangle x1="-1.1" y1="-0.1" x2="-0.9" y2="0.9" layer="41"/>
-<rectangle x1="-0.6" y1="-0.1" x2="-0.4" y2="0.9" layer="41"/>
-<rectangle x1="-0.1" y1="-0.1" x2="0.1" y2="0.9" layer="41"/>
-<rectangle x1="0.4" y1="-0.1" x2="0.6" y2="0.9" layer="41"/>
-<rectangle x1="0.9" y1="-0.1" x2="1.1" y2="0.9" layer="41"/>
-<rectangle x1="1.4" y1="-0.1" x2="1.6" y2="0.9" layer="41"/>
-<rectangle x1="1.9" y1="-0.1" x2="2.1" y2="0.9" layer="41"/>
-<rectangle x1="2.4" y1="-0.1" x2="2.6" y2="0.9" layer="41"/>
-<rectangle x1="2.9" y1="-0.1" x2="3.1" y2="0.9" layer="41"/>
-<rectangle x1="3.4" y1="-0.1" x2="3.6" y2="0.9" layer="41"/>
-<rectangle x1="3.9" y1="-0.1" x2="4.1" y2="0.9" layer="41"/>
-<rectangle x1="4.4" y1="-0.1" x2="4.6" y2="0.9" layer="41"/>
-<rectangle x1="4.9" y1="-0.1" x2="5.1" y2="0.9" layer="41"/>
-<rectangle x1="5.4" y1="-0.1" x2="5.6" y2="0.9" layer="41"/>
-</package>
-</packages>
-<symbols>
-<symbol name="SAS1-1U001-A_I2C_4WSPI">
-<pin name="!CS" x="10.16" y="7.62" visible="pin" length="short" rot="R180"/>
-<pin name="!RES" x="10.16" y="20.32" visible="pin" length="short" rot="R180"/>
-<pin name="D!C!/SA0" x="10.16" y="5.08" visible="pin" length="short" rot="R180"/>
-<pin name="SCLK/SCL" x="10.16" y="2.54" visible="pin" length="short" rot="R180"/>
-<pin name="SDIN/SDA" x="10.16" y="0" visible="pin" length="short" rot="R180"/>
-<pin name="GND" x="-17.78" y="-10.16" visible="pin" length="short"/>
-<pin name="IREF" x="10.16" y="-7.62" visible="pin" length="short" rot="R180"/>
-<pin name="VCOMH" x="10.16" y="-10.16" visible="pin" length="short" rot="R180"/>
-<pin name="VDD" x="-17.78" y="17.78" visible="pin" length="short"/>
-<pin name="VSS" x="-17.78" y="-7.62" visible="pin" length="short"/>
-<pin name="VLSS" x="-17.78" y="-5.08" visible="pin" length="short"/>
-<pin name="VCC" x="-17.78" y="20.32" visible="pin" length="short"/>
-<wire x1="-15.24" y1="-12.7" x2="-15.24" y2="22.86" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="22.86" x2="7.62" y2="22.86" width="0.254" layer="94"/>
-<wire x1="7.62" y1="22.86" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-12.7" x2="-15.24" y2="-12.7" width="0.254" layer="94"/>
-<text x="-15.24" y="22.86" size="1.778" layer="95">&gt;NAME</text>
-<text x="-15.24" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="NC/D2" x="10.16" y="-2.54" visible="pin" length="short" rot="R180"/>
-<pin name="BS1" x="10.16" y="15.24" visible="pin" length="short" rot="R180"/>
-<pin name="BS2" x="10.16" y="12.7" visible="pin" length="short" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SAS1-1U001-A_I2C_4WSPI" prefix="U">
-<gates>
-<gate name="G$1" symbol="SAS1-1U001-A_I2C_4WSPI" x="2.54" y="-10.16"/>
-</gates>
-<devices>
-<device name="" package="FPC05024-42201">
-<connects>
-<connect gate="G$1" pin="!CS" pad="P$8"/>
-<connect gate="G$1" pin="!RES" pad="P$9"/>
-<connect gate="G$1" pin="BS1" pad="P$6"/>
-<connect gate="G$1" pin="BS2" pad="P$7"/>
-<connect gate="G$1" pin="D!C!/SA0" pad="P$10"/>
-<connect gate="G$1" pin="GND" pad="P$1 P$11 P$12 P$16 P$17 P$18 P$19 P$20 P$24"/>
-<connect gate="G$1" pin="IREF" pad="P$21"/>
-<connect gate="G$1" pin="NC/D2" pad="P$15"/>
-<connect gate="G$1" pin="SCLK/SCL" pad="P$13"/>
-<connect gate="G$1" pin="SDIN/SDA" pad="P$14"/>
-<connect gate="G$1" pin="VCC" pad="P$23"/>
-<connect gate="G$1" pin="VCOMH" pad="P$22"/>
-<connect gate="G$1" pin="VDD" pad="P$5"/>
-<connect gate="G$1" pin="VLSS" pad="P$2"/>
-<connect gate="G$1" pin="VSS" pad="P$3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-PowerSymbols">
 <description>&lt;h3&gt;SparkFun Power Symbols&lt;/h3&gt;
 This library contains power, ground, and voltage-supply symbols.
@@ -18822,6 +18681,162 @@ Outline</text>
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Displays">
+<description>&lt;h3&gt;SparkFun Displays&lt;/h3&gt;
+This library contains LCDs, OLEDs, etc. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="FPC05024-42201">
+<description>SparkFun SKU CONN-14195</description>
+<smd name="P$1" x="-5.75" y="0.4" dx="0.3" dy="0.8" layer="1"/>
+<smd name="P$2" x="-5.25" y="0.4" dx="0.3" dy="0.8" layer="1"/>
+<smd name="P$3" x="-4.75" y="0.4" dx="0.3" dy="0.8" layer="1"/>
+<smd name="P$4" x="-4.25" y="0.4" dx="0.3" dy="0.8" layer="1"/>
+<smd name="P$5" x="-3.75" y="0.4" dx="0.3" dy="0.8" layer="1"/>
+<smd name="P$6" x="-3.25" y="0.4" dx="0.3" dy="0.8" layer="1"/>
+<smd name="P$7" x="-2.75" y="0.4" dx="0.3" dy="0.8" layer="1"/>
+<smd name="P$8" x="-2.25" y="0.4" dx="0.3" dy="0.8" layer="1"/>
+<smd name="P$9" x="-1.75" y="0.4" dx="0.3" dy="0.8" layer="1"/>
+<smd name="P$10" x="-1.25" y="0.4" dx="0.3" dy="0.8" layer="1"/>
+<smd name="P$11" x="-0.75" y="0.4" dx="0.3" dy="0.8" layer="1"/>
+<smd name="P$12" x="-0.25" y="0.4" dx="0.3" dy="0.8" layer="1"/>
+<smd name="P$13" x="0.25" y="0.4" dx="0.3" dy="0.8" layer="1"/>
+<smd name="P$14" x="0.75" y="0.4" dx="0.3" dy="0.8" layer="1"/>
+<smd name="P$15" x="1.25" y="0.4" dx="0.3" dy="0.8" layer="1"/>
+<smd name="P$16" x="1.75" y="0.4" dx="0.3" dy="0.8" layer="1"/>
+<smd name="P$17" x="2.25" y="0.4" dx="0.3" dy="0.8" layer="1"/>
+<smd name="P$18" x="2.75" y="0.4" dx="0.3" dy="0.8" layer="1"/>
+<smd name="P$19" x="3.25" y="0.4" dx="0.3" dy="0.8" layer="1"/>
+<smd name="P$20" x="3.75" y="0.4" dx="0.3" dy="0.8" layer="1"/>
+<smd name="P$21" x="4.25" y="0.4" dx="0.3" dy="0.8" layer="1"/>
+<smd name="P$22" x="4.75" y="0.4" dx="0.3" dy="0.8" layer="1"/>
+<smd name="P$23" x="5.25" y="0.4" dx="0.3" dy="0.8" layer="1"/>
+<smd name="P$24" x="5.75" y="0.4" dx="0.3" dy="0.8" layer="1"/>
+<rectangle x1="-6.95" y1="-2.5" x2="-6.55" y2="-1.7" layer="29"/>
+<rectangle x1="6.55" y1="-2.5" x2="6.95" y2="-1.7" layer="29"/>
+<dimension x1="-7.5" y1="-2.5" x2="-7.5" y2="0.9" x3="-8" y3="-0.8" textsize="1.778" layer="47"/>
+<dimension x1="-6.95" y1="-3.1" x2="6.95" y2="-3.35" x3="0" y3="-5.65" textsize="1.778" layer="47" dtype="horizontal"/>
+<polygon width="0.1524" layer="1">
+<vertex x="-6.3" y="0.6"/>
+<vertex x="-6.3" y="-2.7"/>
+<vertex x="-6.4" y="-2.8"/>
+<vertex x="-7.1" y="-2.8"/>
+<vertex x="-7.2" y="-2.7"/>
+<vertex x="-7.2" y="0.6"/>
+<vertex x="-7" y="0.8"/>
+<vertex x="-6.5" y="0.8"/>
+</polygon>
+<polygon width="0.1524" layer="1">
+<vertex x="7.2" y="0.6"/>
+<vertex x="7.2" y="-2.7"/>
+<vertex x="7.1" y="-2.8"/>
+<vertex x="6.4" y="-2.8"/>
+<vertex x="6.3" y="-2.7"/>
+<vertex x="6.3" y="0.6"/>
+<vertex x="6.5" y="0.8"/>
+<vertex x="7" y="0.8"/>
+</polygon>
+<wire x1="0" y1="0.25" x2="7" y2="0.25" width="0.1524" layer="51"/>
+<wire x1="7" y1="0.25" x2="7" y2="-2.65" width="0.1524" layer="51"/>
+<wire x1="7" y1="-2.65" x2="-7" y2="-2.65" width="0.1524" layer="51"/>
+<wire x1="-7" y1="-2.65" x2="-7" y2="0.25" width="0.1524" layer="51"/>
+<wire x1="-7" y1="0.25" x2="0" y2="0.25" width="0.1524" layer="51"/>
+<text x="-5.08" y="-2.54" size="1.778" layer="27">&gt;NAME</text>
+<text x="-5.08" y="-5.08" size="1.778" layer="27">&gt;VALUE</text>
+<rectangle x1="-5.6" y1="-0.1" x2="-5.4" y2="0.9" layer="41"/>
+<rectangle x1="-5.1" y1="-0.1" x2="-4.9" y2="0.9" layer="41"/>
+<rectangle x1="-4.6" y1="-0.1" x2="-4.4" y2="0.9" layer="41"/>
+<rectangle x1="-4.1" y1="-0.1" x2="-3.9" y2="0.9" layer="41"/>
+<rectangle x1="-3.6" y1="-0.1" x2="-3.4" y2="0.9" layer="41"/>
+<rectangle x1="-3.1" y1="-0.1" x2="-2.9" y2="0.9" layer="41"/>
+<rectangle x1="-2.6" y1="-0.1" x2="-2.4" y2="0.9" layer="41"/>
+<rectangle x1="-2.1" y1="-0.1" x2="-1.9" y2="0.9" layer="41"/>
+<rectangle x1="-1.6" y1="-0.1" x2="-1.4" y2="0.9" layer="41"/>
+<rectangle x1="-1.1" y1="-0.1" x2="-0.9" y2="0.9" layer="41"/>
+<rectangle x1="-0.6" y1="-0.1" x2="-0.4" y2="0.9" layer="41"/>
+<rectangle x1="-0.1" y1="-0.1" x2="0.1" y2="0.9" layer="41"/>
+<rectangle x1="0.4" y1="-0.1" x2="0.6" y2="0.9" layer="41"/>
+<rectangle x1="0.9" y1="-0.1" x2="1.1" y2="0.9" layer="41"/>
+<rectangle x1="1.4" y1="-0.1" x2="1.6" y2="0.9" layer="41"/>
+<rectangle x1="1.9" y1="-0.1" x2="2.1" y2="0.9" layer="41"/>
+<rectangle x1="2.4" y1="-0.1" x2="2.6" y2="0.9" layer="41"/>
+<rectangle x1="2.9" y1="-0.1" x2="3.1" y2="0.9" layer="41"/>
+<rectangle x1="3.4" y1="-0.1" x2="3.6" y2="0.9" layer="41"/>
+<rectangle x1="3.9" y1="-0.1" x2="4.1" y2="0.9" layer="41"/>
+<rectangle x1="4.4" y1="-0.1" x2="4.6" y2="0.9" layer="41"/>
+<rectangle x1="4.9" y1="-0.1" x2="5.1" y2="0.9" layer="41"/>
+<rectangle x1="5.4" y1="-0.1" x2="5.6" y2="0.9" layer="41"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SAS1-1U001-A_I2C_4WSPI">
+<pin name="!CS" x="10.16" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="!RES" x="10.16" y="20.32" visible="pin" length="short" rot="R180"/>
+<pin name="D!C!/SA0" x="10.16" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="SCLK/SCL" x="10.16" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="SDIN/SDA" x="10.16" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="GND" x="-17.78" y="-10.16" visible="pin" length="short"/>
+<pin name="IREF" x="10.16" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="VCOMH" x="10.16" y="-10.16" visible="pin" length="short" rot="R180"/>
+<pin name="VDD" x="-17.78" y="17.78" visible="pin" length="short"/>
+<pin name="VSS" x="-17.78" y="-7.62" visible="pin" length="short"/>
+<pin name="VLSS" x="-17.78" y="-5.08" visible="pin" length="short"/>
+<pin name="VCC" x="-17.78" y="20.32" visible="pin" length="short"/>
+<wire x1="-15.24" y1="-12.7" x2="-15.24" y2="22.86" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="22.86" x2="7.62" y2="22.86" width="0.254" layer="94"/>
+<wire x1="7.62" y1="22.86" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-12.7" x2="-15.24" y2="-12.7" width="0.254" layer="94"/>
+<text x="-15.24" y="22.86" size="1.778" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="NC/D2" x="10.16" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="BS1" x="10.16" y="15.24" visible="pin" length="short" rot="R180"/>
+<pin name="BS2" x="10.16" y="12.7" visible="pin" length="short" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="UG-2856KLBAG01_4WSPI" prefix="U">
+<gates>
+<gate name="G$1" symbol="SAS1-1U001-A_I2C_4WSPI" x="5.08" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="FPC05024-42201">
+<connects>
+<connect gate="G$1" pin="!CS" pad="P$8"/>
+<connect gate="G$1" pin="!RES" pad="P$9"/>
+<connect gate="G$1" pin="BS1" pad="P$6"/>
+<connect gate="G$1" pin="BS2" pad="P$7"/>
+<connect gate="G$1" pin="D!C!/SA0" pad="P$10"/>
+<connect gate="G$1" pin="GND" pad="P$1 P$11 P$12 P$16 P$17 P$18 P$19 P$20 P$24"/>
+<connect gate="G$1" pin="IREF" pad="P$21"/>
+<connect gate="G$1" pin="NC/D2" pad="P$15"/>
+<connect gate="G$1" pin="SCLK/SCL" pad="P$13"/>
+<connect gate="G$1" pin="SDIN/SDA" pad="P$14"/>
+<connect gate="G$1" pin="VCC" pad="P$23"/>
+<connect gate="G$1" pin="VCOMH" pad="P$22"/>
+<connect gate="G$1" pin="VDD" pad="P$5"/>
+<connect gate="G$1" pin="VLSS" pad="P$2"/>
+<connect gate="G$1" pin="VSS" pad="P$3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-14195" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -18832,7 +18847,7 @@ Outline</text>
 </class>
 </classes>
 <parts>
-<part name="U2" library="TGO" deviceset="SAS1-1U001-A_I2C_4WSPI" device=""/>
+<part name="U2" library="SparkFun-Displays" deviceset="UG-2856KLBAG01_4WSPI" device=""/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R4" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
