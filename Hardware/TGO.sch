@@ -720,6 +720,27 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
+<deviceset name="2.2KOHM" prefix="R">
+<description>&lt;h3&gt;2.2kΩ resistor&lt;/h3&gt;
+&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-1/10W-1%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-08272"/>
+<attribute name="VALUE" value="2.2k"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="SparkFun-Capacitors">
@@ -18861,7 +18882,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device="">
 <attribute name="DESIGNER" value="Owen Lyke"/>
-<attribute name="REV" value="v01"/>
+<attribute name="REV" value="v02"/>
 </part>
 <part name="J1" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM"/>
@@ -18907,6 +18928,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J4" library="SparkFun-Connectors" deviceset="CONN_01" device="PTH_NO_SILK_YES_STOP"/>
 <part name="U$1" library="SparkX" deviceset="QWIIC_BOARD_OUTLINE" device="H"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
+<part name="R8" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0603-1/10W-1%" value="2.2k"/>
+<part name="R9" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0603-1/10W-1%" value="2.2k"/>
+<part name="SUPPLY13" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18954,10 +18978,10 @@ when closed in 4WSPI mode</text>
 <instance part="GND1" gate="1" x="17.78" y="58.42"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="V" x="147.32" y="0"/>
-<instance part="J1" gate="G$1" x="17.78" y="20.32"/>
-<instance part="J2" gate="G$1" x="55.88" y="20.32"/>
-<instance part="GND2" gate="1" x="27.94" y="12.7"/>
-<instance part="GND6" gate="1" x="66.04" y="12.7"/>
+<instance part="J1" gate="G$1" x="15.24" y="12.7"/>
+<instance part="J2" gate="G$1" x="73.66" y="12.7"/>
+<instance part="GND2" gate="1" x="25.4" y="5.08"/>
+<instance part="GND6" gate="1" x="83.82" y="5.08"/>
 <instance part="U1" gate="G$1" x="66.04" y="78.74"/>
 <instance part="R1" gate="G$1" x="101.6" y="83.82" rot="R90"/>
 <instance part="R2" gate="G$1" x="101.6" y="68.58" rot="R90"/>
@@ -18965,8 +18989,8 @@ when closed in 4WSPI mode</text>
 <instance part="GND4" gate="1" x="53.34" y="58.42"/>
 <instance part="GND8" gate="1" x="101.6" y="58.42"/>
 <instance part="L1" gate="G$1" x="66.04" y="91.44" rot="R90"/>
-<instance part="SUPPLY2" gate="G$1" x="27.94" y="27.94"/>
-<instance part="SUPPLY6" gate="G$1" x="66.04" y="27.94"/>
+<instance part="SUPPLY2" gate="G$1" x="25.4" y="20.32"/>
+<instance part="SUPPLY6" gate="G$1" x="83.82" y="20.32"/>
 <instance part="SUPPLY3" gate="G$1" x="53.34" y="93.98"/>
 <instance part="SUPPLY7" gate="G$1" x="101.6" y="93.98"/>
 <instance part="SUPPLY9" gate="G$1" x="132.08" y="93.98"/>
@@ -18986,18 +19010,21 @@ when closed in 4WSPI mode</text>
 <instance part="SUPPLY12" gate="G$1" x="205.74" y="165.1"/>
 <instance part="JP3" gate="G$1" x="205.74" y="142.24" rot="MR270"/>
 <instance part="JP4" gate="G$1" x="220.98" y="149.86" rot="R90"/>
-<instance part="SUPPLY8" gate="G$1" x="101.6" y="40.64"/>
+<instance part="SUPPLY8" gate="G$1" x="121.92" y="40.64"/>
 <instance part="FD3" gate="G$1" x="246.38" y="33.02"/>
 <instance part="FD1" gate="G$1" x="243.84" y="33.02"/>
 <instance part="FD2" gate="G$1" x="243.84" y="30.48"/>
 <instance part="FD4" gate="G$1" x="246.38" y="30.48"/>
 <instance part="LOGO2" gate="G$1" x="228.6" y="60.96"/>
-<instance part="J3" gate="G$1" x="111.76" y="22.86" rot="R180"/>
-<instance part="GND10" gate="1" x="104.14" y="5.08"/>
-<instance part="R3" gate="G$1" x="96.52" y="30.48" rot="R90"/>
-<instance part="J4" gate="G$1" x="114.3" y="10.16" rot="R180"/>
+<instance part="J3" gate="G$1" x="132.08" y="22.86" rot="R180"/>
+<instance part="GND10" gate="1" x="124.46" y="5.08"/>
+<instance part="R3" gate="G$1" x="116.84" y="30.48" rot="R90"/>
+<instance part="J4" gate="G$1" x="134.62" y="10.16" rot="R180"/>
 <instance part="U$1" gate="G$1" x="236.728" y="31.75"/>
 <instance part="LOGO1" gate="G$1" x="154.94" y="48.26"/>
+<instance part="R8" gate="G$1" x="33.02" y="25.4" rot="R90"/>
+<instance part="R9" gate="G$1" x="43.18" y="25.4" rot="R90"/>
+<instance part="SUPPLY13" gate="G$1" x="38.1" y="35.56"/>
 </instances>
 <busses>
 </busses>
@@ -19058,15 +19085,15 @@ when closed in 4WSPI mode</text>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="17.78" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="10.16" x2="25.4" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="27.94" y1="17.78" x2="27.94" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="10.16" x2="25.4" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="1"/>
 <pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="63.5" y1="17.78" x2="66.04" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="17.78" x2="66.04" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="10.16" x2="83.82" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="10.16" x2="83.82" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
@@ -19082,8 +19109,8 @@ when closed in 4WSPI mode</text>
 <segment>
 <pinref part="J3" gate="G$1" pin="1"/>
 <pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="106.68" y1="27.94" x2="104.14" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="27.94" x2="104.14" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="127" y1="27.94" x2="124.46" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="27.94" x2="124.46" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND12" gate="1" pin="GND"/>
@@ -19116,12 +19143,12 @@ when closed in 4WSPI mode</text>
 <label x="93.98" y="165.1" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="93.98" y="10.16" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="96.52" y1="10.16" x2="93.98" y2="10.16" width="0.1524" layer="91"/>
+<label x="114.3" y="10.16" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="116.84" y1="10.16" x2="114.3" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="96.52" y1="25.4" x2="96.52" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="10.16" x2="106.68" y2="10.16" width="0.1524" layer="91"/>
-<junction x="96.52" y="10.16"/>
+<wire x1="116.84" y1="25.4" x2="116.84" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="10.16" x2="127" y2="10.16" width="0.1524" layer="91"/>
+<junction x="116.84" y="10.16"/>
 <pinref part="J4" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -19159,14 +19186,14 @@ when closed in 4WSPI mode</text>
 <net name="3.3V" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="25.4" y1="20.32" x2="27.94" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="20.32" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="12.7" x2="25.4" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="12.7" x2="25.4" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="20.32" x2="63.5" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="27.94" x2="66.04" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="12.7" x2="81.28" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="20.32" x2="83.82" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
@@ -19191,15 +19218,15 @@ when closed in 4WSPI mode</text>
 <pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="101.6" y1="40.64" x2="101.6" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="40.64" x2="121.92" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="96.52" y1="35.56" x2="96.52" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="38.1" x2="101.6" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="35.56" x2="116.84" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="38.1" x2="121.92" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="2"/>
-<wire x1="106.68" y1="25.4" x2="101.6" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="25.4" x2="101.6" y2="38.1" width="0.1524" layer="91"/>
-<junction x="101.6" y="38.1"/>
+<wire x1="127" y1="25.4" x2="121.92" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="25.4" x2="121.92" y2="38.1" width="0.1524" layer="91"/>
+<junction x="121.92" y="38.1"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="!SHDN!"/>
@@ -19224,6 +19251,17 @@ when closed in 4WSPI mode</text>
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="SUPPLY12" gate="G$1" pin="3.3V"/>
 <wire x1="205.74" y1="162.56" x2="205.74" y2="165.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="33.02" y1="30.48" x2="33.02" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="33.02" x2="38.1" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="38.1" y1="33.02" x2="43.18" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="33.02" x2="43.18" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="SUPPLY13" gate="G$1" pin="3.3V"/>
+<wire x1="38.1" y1="35.56" x2="38.1" y2="33.02" width="0.1524" layer="91"/>
+<junction x="38.1" y="33.02"/>
 </segment>
 </net>
 <net name="12V" class="0">
@@ -19273,9 +19311,9 @@ when closed in 4WSPI mode</text>
 <junction x="172.72" y="149.86"/>
 </segment>
 <segment>
-<label x="93.98" y="17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="114.3" y="17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J3" gate="G$1" pin="5"/>
-<wire x1="106.68" y1="17.78" x2="93.98" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="127" y1="17.78" x2="114.3" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCLK/SCL" class="0">
@@ -19286,18 +19324,22 @@ when closed in 4WSPI mode</text>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="4"/>
-<wire x1="25.4" y1="25.4" x2="30.48" y2="25.4" width="0.1524" layer="91"/>
-<label x="30.48" y="25.4" size="1.27" layer="95" xref="yes"/>
+<wire x1="22.86" y1="17.78" x2="43.18" y2="17.78" width="0.1524" layer="91"/>
+<label x="45.72" y="17.78" size="1.27" layer="95" xref="yes"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="43.18" y1="17.78" x2="45.72" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="20.32" x2="43.18" y2="17.78" width="0.1524" layer="91"/>
+<junction x="43.18" y="17.78"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="4"/>
-<wire x1="63.5" y1="25.4" x2="68.58" y2="25.4" width="0.1524" layer="91"/>
-<label x="68.58" y="25.4" size="1.27" layer="95" xref="yes"/>
+<wire x1="81.28" y1="17.78" x2="86.36" y2="17.78" width="0.1524" layer="91"/>
+<label x="86.36" y="17.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="93.98" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="114.3" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J3" gate="G$1" pin="3"/>
-<wire x1="106.68" y1="22.86" x2="93.98" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="127" y1="22.86" x2="114.3" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SDIN/SDA" class="0">
@@ -19308,13 +19350,17 @@ when closed in 4WSPI mode</text>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="25.4" y1="22.86" x2="30.48" y2="22.86" width="0.1524" layer="91"/>
-<label x="30.48" y="22.86" size="1.27" layer="95" xref="yes"/>
+<wire x1="22.86" y1="15.24" x2="33.02" y2="15.24" width="0.1524" layer="91"/>
+<label x="45.72" y="15.24" size="1.27" layer="95" xref="yes"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="33.02" y1="15.24" x2="45.72" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="20.32" x2="33.02" y2="15.24" width="0.1524" layer="91"/>
+<junction x="33.02" y="15.24"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="3"/>
-<wire x1="68.58" y1="22.86" x2="63.5" y2="22.86" width="0.1524" layer="91"/>
-<label x="68.58" y="22.86" size="1.27" layer="95" xref="yes"/>
+<wire x1="86.36" y1="15.24" x2="81.28" y2="15.24" width="0.1524" layer="91"/>
+<label x="86.36" y="15.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP4" gate="G$1" pin="2"/>
@@ -19322,9 +19368,9 @@ when closed in 4WSPI mode</text>
 <label x="220.98" y="157.48" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<label x="93.98" y="20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="114.3" y="20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J3" gate="G$1" pin="4"/>
-<wire x1="106.68" y1="20.32" x2="93.98" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="127" y1="20.32" x2="114.3" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D!C!/SA0" class="0">
@@ -19343,9 +19389,9 @@ when closed in 4WSPI mode</text>
 <junction x="187.96" y="149.86"/>
 </segment>
 <segment>
-<label x="93.98" y="15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="114.3" y="15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J3" gate="G$1" pin="6"/>
-<wire x1="93.98" y1="15.24" x2="106.68" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="15.24" x2="127" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="NC/D2" class="0">

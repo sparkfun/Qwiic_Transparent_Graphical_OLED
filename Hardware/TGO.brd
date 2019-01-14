@@ -6,25 +6,25 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -150,7 +150,7 @@
 <wire x1="25.4" y1="0" x2="25.4" y2="25.4" width="0.2032" layer="20"/>
 <wire x1="25.4" y1="25.4" x2="0" y2="25.4" width="0.2032" layer="20"/>
 <wire x1="0" y1="25.4" x2="0" y2="0" width="0.2032" layer="20"/>
-<text x="0.381" y="10.668" size="1.778" layer="16" font="vector" ratio="15" rot="SMR90">v01</text>
+<text x="0.381" y="10.668" size="1.778" layer="16" font="vector" ratio="15" rot="SMR90">v02</text>
 <text x="16.51" y="-10.16" size="1.778" layer="51" font="vector" ratio="15">Owen Lyke</text>
 <wire x1="2.413" y1="20.32" x2="1.27" y2="19.177" width="0.2032" layer="49"/>
 <wire x1="1.27" y1="19.177" x2="1.27" y2="19.05" width="0.2032" layer="49"/>
@@ -5237,7 +5237,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="FD4" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="24.60625" y="24.60625" rot="MR0"/>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-11.43" y="-10.16">
 <attribute name="DESIGNER" value="Owen Lyke" x="-11.43" y="-10.16" size="1.778" layer="27" display="off"/>
-<attribute name="REV" value="v01" x="-11.43" y="-10.16" size="1.778" layer="27" display="off"/>
+<attribute name="REV" value="v02" x="-11.43" y="-10.16" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J1" library="SparkFun-Connectors" package="1X04_1MM_RA" value="" x="20.32" y="12.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="22.479" y="11.303" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
@@ -5338,6 +5338,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="10.16" y="20.32" rot="MR0"/>
 <element name="U$3" library="buzzard_labels_1" package="D27" value="" x="5.08" y="13.97" rot="MR90"/>
 <element name="U$20" library="buzzard_labels_1" package="D27" value="" x="10.16" y="13.97" rot="MR90"/>
+<element name="R8" library="SparkFun-Resistors" package="0603" value="2.2k" x="-30.48" y="-13.97">
+<attribute name="PROD_ID" value="RES-08272" x="-30.48" y="-13.97" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+</element>
+<element name="R9" library="SparkFun-Resistors" package="0603" value="2.2k" x="-30.48" y="-17.78">
+<attribute name="PROD_ID" value="RES-08272" x="-30.48" y="-17.78" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -5598,6 +5604,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="12.7" y1="6.262" x2="14.859" y2="6.262" width="0.508" layer="1"/>
 <wire x1="14.859" y1="6.262" x2="17.018" y2="6.262" width="0.508" layer="1"/>
 <wire x1="17.018" y1="5.207" x2="16.256" y2="4.445" width="0.508" layer="1"/>
+<contactref element="R8" pad="2"/>
+<contactref element="R9" pad="2"/>
+<wire x1="-29.63" y1="-13.97" x2="-29.63" y2="-17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="1.27" x2="-29.63" y2="-13.97" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="12V">
 <contactref element="C6" pad="1"/>
@@ -5695,6 +5705,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="12.773" y1="10.32025" x2="11.94395" y2="9.4912" width="0.2032" layer="1"/>
 <wire x1="12.367259375" y1="11.02868125" x2="12.773" y2="10.622940625" width="0.2032" layer="1"/>
 <wire x1="12.773" y1="10.622940625" x2="12.773" y2="10.32025" width="0.2032" layer="1"/>
+<contactref element="R9" pad="1"/>
+<wire x1="4.064" y1="4.826" x2="-31.33" y2="-17.78" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDIN/SDA">
 <contactref element="U2" pad="P$14"/>
@@ -5739,6 +5751,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="11.77035" y1="12.53235" x2="11.938" y2="12.7" width="0.2032" layer="16"/>
 <wire x1="11.77035" y1="10.45895" x2="11.77035" y2="12.53235" width="0.2032" layer="16"/>
 <wire x1="11.91768125" y1="10.31161875" x2="11.79068125" y2="10.18461875" width="0.2032" layer="1"/>
+<contactref element="R8" pad="1"/>
+<wire x1="4.572" y1="5.461" x2="-31.33" y2="-13.97" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="D!C!/SA0">
 <contactref element="U2" pad="P$10"/>
