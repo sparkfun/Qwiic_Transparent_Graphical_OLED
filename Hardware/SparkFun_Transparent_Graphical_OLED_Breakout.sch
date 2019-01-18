@@ -19311,9 +19311,9 @@ when closed in 4WSPI mode</text>
 <junction x="172.72" y="149.86"/>
 </segment>
 <segment>
-<label x="114.3" y="17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J3" gate="G$1" pin="5"/>
-<wire x1="127" y1="17.78" x2="114.3" y2="17.78" width="0.1524" layer="91"/>
+<label x="114.3" y="15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="127" y1="15.24" x2="114.3" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="SCLK/SCL" class="0">
@@ -19337,9 +19337,9 @@ when closed in 4WSPI mode</text>
 <label x="86.36" y="17.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="114.3" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J3" gate="G$1" pin="3"/>
-<wire x1="127" y1="22.86" x2="114.3" y2="22.86" width="0.1524" layer="91"/>
+<label x="114.3" y="20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="127" y1="20.32" x2="114.3" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="SDIN/SDA" class="0">
@@ -19368,9 +19368,9 @@ when closed in 4WSPI mode</text>
 <label x="220.98" y="157.48" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<label x="114.3" y="20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J3" gate="G$1" pin="4"/>
-<wire x1="127" y1="20.32" x2="114.3" y2="20.32" width="0.1524" layer="91"/>
+<label x="114.3" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="127" y1="22.86" x2="114.3" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="D!C!/SA0" class="0">
@@ -19389,9 +19389,9 @@ when closed in 4WSPI mode</text>
 <junction x="187.96" y="149.86"/>
 </segment>
 <segment>
-<label x="114.3" y="15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J3" gate="G$1" pin="6"/>
-<wire x1="114.3" y1="15.24" x2="127" y2="15.24" width="0.1524" layer="91"/>
+<label x="114.3" y="17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="114.3" y1="17.78" x2="127" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="NC/D2" class="0">
