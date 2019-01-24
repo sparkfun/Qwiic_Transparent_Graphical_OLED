@@ -19510,8 +19510,8 @@ when closed in 4WSPI mode</text>
 <instance part="R8" gate="G$1" x="27.94" y="22.86" rot="R90"/>
 <instance part="R9" gate="G$1" x="43.18" y="22.86" rot="R90"/>
 <instance part="SUPPLY13" gate="G$1" x="35.56" y="38.1"/>
-<instance part="C3" gate="G$1" x="116.84" y="10.16"/>
-<instance part="GND3" gate="1" x="116.84" y="2.54"/>
+<instance part="C3" gate="G$1" x="114.3" y="10.16"/>
+<instance part="GND3" gate="1" x="114.3" y="2.54"/>
 <instance part="D2" gate="G$1" x="7.62" y="81.28"/>
 <instance part="GND9" gate="1" x="7.62" y="58.42"/>
 <instance part="SUPPLY14" gate="G$1" x="7.62" y="86.36"/>
@@ -19622,7 +19622,7 @@ when closed in 4WSPI mode</text>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
 <pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="116.84" y1="5.08" x2="116.84" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="5.08" x2="114.3" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R10" gate="G$1" pin="1"/>
@@ -19646,14 +19646,16 @@ when closed in 4WSPI mode</text>
 </segment>
 <segment>
 <label x="111.76" y="17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="116.84" y1="17.78" x2="111.76" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="17.78" x2="114.3" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="114.3" y1="17.78" x2="111.76" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="33.02" x2="116.84" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="17.78" x2="127" y2="17.78" width="0.1524" layer="91"/>
 <junction x="116.84" y="17.78"/>
 <pinref part="J4" gate="G$1" pin="1"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="116.84" y1="15.24" x2="116.84" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="15.24" x2="114.3" y2="17.78" width="0.1524" layer="91"/>
+<junction x="114.3" y="17.78"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -19814,8 +19816,8 @@ when closed in 4WSPI mode</text>
 <junction x="172.72" y="149.86"/>
 </segment>
 <segment>
-<label x="114.3" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="127" y1="22.86" x2="114.3" y2="22.86" width="0.1524" layer="91"/>
+<label x="111.76" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="127" y1="22.86" x2="111.76" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="6"/>
 </segment>
 </net>
@@ -19840,8 +19842,8 @@ when closed in 4WSPI mode</text>
 <label x="86.36" y="17.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="114.3" y="27.94" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="127" y1="27.94" x2="114.3" y2="27.94" width="0.1524" layer="91"/>
+<label x="111.76" y="27.94" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="127" y1="27.94" x2="111.76" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="4"/>
 </segment>
 </net>
@@ -19871,8 +19873,8 @@ when closed in 4WSPI mode</text>
 <label x="220.98" y="157.48" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<label x="114.3" y="30.48" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="127" y1="30.48" x2="114.3" y2="30.48" width="0.1524" layer="91"/>
+<label x="111.76" y="30.48" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="127" y1="30.48" x2="111.76" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="3"/>
 </segment>
 </net>
@@ -19892,8 +19894,8 @@ when closed in 4WSPI mode</text>
 <junction x="187.96" y="149.86"/>
 </segment>
 <segment>
-<label x="114.3" y="25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="114.3" y1="25.4" x2="127" y2="25.4" width="0.1524" layer="91"/>
+<label x="111.76" y="25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="111.76" y1="25.4" x2="127" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="5"/>
 </segment>
 </net>
