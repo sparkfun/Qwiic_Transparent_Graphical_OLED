@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.0">
+<eagle version="9.1.3">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -16199,7 +16199,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="1X04_1MM_RA">
+<package name="JST04_1MM_RA">
 <description>&lt;h3&gt;SMD- 4 Pin Right Angle &lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count:4&lt;/li&gt;
@@ -16208,12 +16208,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;p&gt;Example device(s):
 &lt;ul&gt;&lt;li&gt;CONN_04&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="-1.5" y1="-4.6" x2="1.5" y2="-4.6" width="0.254" layer="21"/>
-<wire x1="-3" y1="-2" x2="-3" y2="-0.35" width="0.254" layer="21"/>
-<wire x1="2.25" y1="-0.35" x2="3" y2="-0.35" width="0.254" layer="21"/>
-<wire x1="3" y1="-0.35" x2="3" y2="-2" width="0.254" layer="21"/>
-<wire x1="-3" y1="-0.35" x2="-2.25" y2="-0.35" width="0.254" layer="21"/>
-<circle x="-2.5" y="0.3" radius="0.1414" width="0.4" layer="21"/>
+<wire x1="-1.5" y1="-4.6" x2="1.5" y2="-4.6" width="0.2032" layer="21"/>
+<wire x1="-3" y1="-2" x2="-3" y2="-0.35" width="0.2032" layer="21"/>
+<wire x1="2.25" y1="-0.35" x2="3" y2="-0.35" width="0.2032" layer="21"/>
+<wire x1="3" y1="-0.35" x2="3" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-3" y1="-0.35" x2="-2.25" y2="-0.35" width="0.2032" layer="21"/>
+<circle x="-2.5" y="0.3" radius="0.1016" width="0.2032" layer="21"/>
 <smd name="NC2" x="-2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
 <smd name="NC1" x="2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
 <smd name="1" x="-1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
@@ -16222,30 +16222,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="4" x="1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
 <text x="-1.397" y="-2.159" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.651" y="-3.302" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-</package>
-<package name="1X04_1MM_RA_STRESSRELIEF">
-<description>Qwiic connector with milled cutout. Sliding the cable into this slot prevents the cable from coming unplugged.</description>
-<wire x1="-1.5" y1="-4.6" x2="1.5" y2="-4.6" width="0.254" layer="21"/>
-<wire x1="-3" y1="-2" x2="-3" y2="-0.35" width="0.254" layer="21"/>
-<wire x1="2.25" y1="-0.35" x2="3" y2="-0.35" width="0.254" layer="21"/>
-<wire x1="3" y1="-0.35" x2="3" y2="-2" width="0.254" layer="21"/>
-<wire x1="-3" y1="-0.35" x2="-2.25" y2="-0.35" width="0.254" layer="21"/>
-<circle x="-2.5" y="0.3" radius="0.1414" width="0.4" layer="21"/>
-<smd name="NC2" x="-2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
-<smd name="NC1" x="2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
-<smd name="1" x="-1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<smd name="2" x="-0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<smd name="3" x="0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<smd name="4" x="1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<text x="-1.397" y="-2.159" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.651" y="-3.302" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-<rectangle x1="-4" y1="-8" x2="4" y2="-6" layer="46"/>
-<rectangle x1="-4" y1="-10" x2="-2" y2="-8" layer="46"/>
-<wire x1="-2" y1="-10.16" x2="-2" y2="-8" width="0.3048" layer="20"/>
-<wire x1="-2" y1="-8" x2="4" y2="-8" width="0.3048" layer="20"/>
-<wire x1="4" y1="-8" x2="4" y2="-6" width="0.3048" layer="20"/>
-<wire x1="4" y1="-6" x2="-4" y2="-6" width="0.3048" layer="20"/>
-<wire x1="-4" y1="-6" x2="-4" y2="-10.16" width="0.3048" layer="20"/>
 </package>
 <package name="1X06">
 <description>&lt;h3&gt;Plated Through Hole - 6 Pin&lt;/h3&gt;
@@ -17227,6 +17203,86 @@ Fits 4-40 Screws.
 <text x="-1.397" y="3.302" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.524" y="-3.937" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
+<package name="JST04_1MM_RA_STRESSRELIEF">
+<description>Qwiic connector with milled cutout. Sliding the cable into this slot prevents the cable from coming unplugged.</description>
+<wire x1="-1.5" y1="-4.6" x2="1.5" y2="-4.6" width="0.254" layer="21"/>
+<wire x1="-3" y1="-2" x2="-3" y2="-0.35" width="0.254" layer="21"/>
+<wire x1="2.25" y1="-0.35" x2="3" y2="-0.35" width="0.254" layer="21"/>
+<wire x1="3" y1="-0.35" x2="3" y2="-2" width="0.254" layer="21"/>
+<wire x1="-3" y1="-0.35" x2="-2.25" y2="-0.35" width="0.254" layer="21"/>
+<circle x="-2.5" y="0.3" radius="0.1414" width="0.4" layer="21"/>
+<smd name="NC2" x="-2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
+<smd name="NC1" x="2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
+<smd name="1" x="-1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<smd name="2" x="-0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<smd name="3" x="0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<smd name="4" x="1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<text x="-1.397" y="-2.159" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.651" y="-3.302" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<rectangle x1="-4" y1="-8" x2="4" y2="-6" layer="46"/>
+<rectangle x1="-4" y1="-10" x2="-2" y2="-8" layer="46"/>
+<wire x1="-2" y1="-10.16" x2="-2" y2="-8" width="0.3048" layer="20"/>
+<wire x1="-2" y1="-8" x2="4" y2="-8" width="0.3048" layer="20"/>
+<wire x1="4" y1="-8" x2="4" y2="-6" width="0.3048" layer="20"/>
+<wire x1="4" y1="-6" x2="-4" y2="-6" width="0.3048" layer="20"/>
+<wire x1="-4" y1="-6" x2="-4" y2="-10.16" width="0.3048" layer="20"/>
+</package>
+<package name="PAD.02X.02">
+<description>&lt;h3&gt;Electrically Conductive Pad 0.02" Square&lt;/h3&gt;
+Used as a test point connection for pogo pins or other debugging tools. 
+&lt;p&gt;Specifications:
+&lt;li&gt;Area: 0.02" x 0.02"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="P$1" x="0" y="0" dx="0.508" dy="0.508" layer="1"/>
+</package>
+<package name="PAD.03X.03">
+<description>&lt;h3&gt;Electrically Conductive Pad 0.03" Circle&lt;/h3&gt;
+Used as a test point connection for pogo pins or other debugging tools. 
+&lt;p&gt;Specifications:
+&lt;li&gt;Area: 0.03" x 0.03"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="P$1" x="0" y="0" dx="0.762" dy="0.762" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="PAD.03X.05">
+<description>&lt;h3&gt;Electrically Conductive Pad 0.05" Circle&lt;/h3&gt;
+Used as a test point connection for pogo pins or other debugging tools. 
+&lt;p&gt;Specifications:
+&lt;li&gt;Area: 0.05" x 0.05"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="P$1" x="0" y="0" dx="1.27" dy="1.27" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="PAD.03X.04">
+<description>&lt;h3&gt;Electrically Conductive Pad 0.04" Circle&lt;/h3&gt;
+Used as a test point connection for pogo pins or other debugging tools. 
+&lt;p&gt;Specifications:
+&lt;li&gt;Area: 0.04" x 0.04"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="P$1" x="0" y="0" dx="1.016" dy="1.016" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="TP_15TH">
+<description>&lt;h3&gt;Electrically Conductive Via 0.015" Drill&lt;/h3&gt;
+Used as a test point connection for pogo pins or other debugging tools. 
+&lt;p&gt;Specifications:
+&lt;li&gt;Area:0.015"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<pad name="P$1" x="0" y="0" drill="0.381" diameter="0.6096" stop="no"/>
+<circle x="0" y="0" radius="0.381" width="0" layer="30"/>
+</package>
 </packages>
 <symbols>
 <symbol name="I2C_STANDARD">
@@ -17283,6 +17339,13 @@ Fits 4-40 Screws.
 <text x="-2.54" y="3.048" size="1.778" layer="95" font="vector">&gt;NAME</text>
 <pin name="1" x="7.62" y="0" visible="off" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
+<symbol name="TEST-POINT">
+<wire x1="2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="0.762" x2="3.302" y2="-0.762" width="0.1524" layer="94" curve="180"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;Name</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector">&gt;Value</text>
+<pin name="1" x="0" y="0" visible="off" length="point" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="QWIIC_CONNECTOR" prefix="J" uservalue="yes">
@@ -17296,7 +17359,7 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <gate name="G$1" symbol="I2C_STANDARD" x="0" y="0"/>
 </gates>
 <devices>
-<device name="JS-1MM" package="1X04_1MM_RA">
+<device name="JS-1MM" package="JST04_1MM_RA">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -17310,7 +17373,7 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 </technology>
 </technologies>
 </device>
-<device name="SR" package="1X04_1MM_RA_STRESSRELIEF">
+<device name="SR" package="JST04_1MM_RA_STRESSRELIEF">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -17802,6 +17865,68 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <technology name="">
 <attribute name="PROD_ID" value="HW-08694" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEST-POINT" prefix="TP">
+<description>&lt;h3&gt;SparkFun Test Points&lt;/h3&gt;
+&lt;p&gt;Bare copper test points for troubleshooting or In-Circuit-Testing. These are used by our Production team for verifying production board runs using pogo-pins on test beds.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13284”&gt;SparkFun LSM9DS1 Breakout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13714”&gt;SparkFun PSOC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13879"&gt;SparkFun Load Cell Amplifier&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="TEST-POINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="2" package="PAD.02X.02">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3" package="PAD.03X.03">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3X5" package="PAD.03X.05">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3X4" package="PAD.03X.04">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="TP_15TH_THRU" package="TP_15TH">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="POGO_PTH" package="1X01_NO_SILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -18335,17 +18460,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="1.9" size="0.6096" layer="25" ratio="20" align="bottom-center">&gt;Name</text>
 <text x="0" y="-1.9" size="0.6096" layer="27" ratio="20" align="top-center">&gt;Value</text>
 </package>
-<package name="XFL4020">
-<smd name="P$1" x="1" y="1.8" dx="3.4" dy="0.98" layer="1" rot="R90"/>
-<smd name="P$2" x="3.4" y="1.8" dx="3.4" dy="0.98" layer="1" rot="R90"/>
-<wire x1="0" y1="-0.4" x2="0" y2="4" width="0.1524" layer="51"/>
-<wire x1="0" y1="4" x2="4.4" y2="4" width="0.1524" layer="51"/>
-<wire x1="4.4" y1="4" x2="4.4" y2="-0.4" width="0.1524" layer="51"/>
-<wire x1="4.4" y1="-0.4" x2="0" y2="-0.4" width="0.1524" layer="51"/>
-<wire x1="0.1" y1="3.9" x2="4.3" y2="3.9" width="0.1524" layer="21"/>
-<text x="-1.8" y="4.6" size="1.778" layer="25">&gt;NAME</text>
-<text x="-2.2" y="-2.7" size="1.778" layer="27">&gt;VALUE</text>
-</package>
 <package name="INDUCTOR_LQH32">
 <smd name="P$1" x="-0.07" y="1.205" dx="2" dy="1.25" layer="1"/>
 <smd name="P$2" x="-0.07" y="-1.295" dx="2" dy="1.25" layer="1"/>
@@ -18355,6 +18469,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-1.27" y1="-1.905" x2="1.143" y2="-1.905" width="0.127" layer="51"/>
 <wire x1="1.143" y1="-1.905" x2="1.143" y2="1.905" width="0.127" layer="51"/>
 <wire x1="1.143" y1="1.905" x2="-1.27" y2="1.905" width="0.127" layer="51"/>
+</package>
+<package name="XFL4020">
+<smd name="P$1" x="1" y="1.8" dx="3.4" dy="0.98" layer="1" rot="R90"/>
+<smd name="P$2" x="3.4" y="1.8" dx="3.4" dy="0.98" layer="1" rot="R90"/>
+<wire x1="0" y1="-0.4" x2="0" y2="4" width="0.1524" layer="51"/>
+<wire x1="0" y1="4" x2="4.4" y2="4" width="0.1524" layer="51"/>
+<wire x1="4.4" y1="4" x2="4.4" y2="-0.4" width="0.1524" layer="51"/>
+<wire x1="4.4" y1="-0.4" x2="0" y2="-0.4" width="0.1524" layer="51"/>
+<wire x1="4.736" y1="-0.281" x2="4.736" y2="3.919" width="0.1524" layer="21"/>
+<text x="-1.8" y="4.6" size="1.778" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.2" y="-2.7" size="1.778" layer="27" font="vector">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -18767,129 +18892,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkX">
-<packages>
-<package name="QWIIC_BOARD_MOUNT_HOLES">
-<hole x="-10.16" y="10.16" drill="3.302"/>
-<hole x="10.16" y="10.16" drill="3.302"/>
-<hole x="10.16" y="-10.16" drill="3.302"/>
-<hole x="-10.16" y="-10.16" drill="3.302"/>
-<wire x1="-12.7" y1="12.7" x2="12.7" y2="12.7" width="0.127" layer="51"/>
-<wire x1="12.7" y1="12.7" x2="12.7" y2="-12.7" width="0.127" layer="51"/>
-<wire x1="12.7" y1="-12.7" x2="-12.7" y2="-12.7" width="0.127" layer="51"/>
-<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="12.7" width="0.127" layer="51"/>
-<text x="0" y="0" size="0.508" layer="51" ratio="15" align="center">Qwiic Board</text>
-<circle x="-1.27" y="-11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="-3.81" y="-11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="1.27" y="-11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="3.81" y="-11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="-2.54" y="11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="-5.08" y="11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="0" y="11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="2.54" y="11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="5.08" y="11.43" radius="0.7239" width="0.5588" layer="51"/>
-<wire x1="-12.22" y1="1.5" x2="-12.22" y2="-1.5" width="0.254" layer="51"/>
-<wire x1="-9.62" y1="3" x2="-7.97" y2="3" width="0.254" layer="51"/>
-<wire x1="-7.97" y1="-2.25" x2="-7.97" y2="-3" width="0.254" layer="51"/>
-<wire x1="-7.97" y1="-3" x2="-9.62" y2="-3" width="0.254" layer="51"/>
-<wire x1="-7.97" y1="3" x2="-7.97" y2="2.25" width="0.254" layer="51"/>
-<circle x="-7.32" y="2.5" radius="0.1414" width="0.4" layer="51"/>
-<rectangle x1="-8.29" y1="1.2" x2="-6.94" y2="1.8" layer="51"/>
-<rectangle x1="-8.29" y1="0.2" x2="-6.94" y2="0.8" layer="51"/>
-<rectangle x1="-8.29" y1="-0.8" x2="-6.94" y2="-0.2" layer="51"/>
-<rectangle x1="-8.29" y1="-1.8" x2="-6.94" y2="-1.2" layer="51"/>
-<rectangle x1="-12.29" y1="2.2" x2="-10.3" y2="3.4" layer="51"/>
-<rectangle x1="-12.29" y1="-3.4" x2="-10.3" y2="-2.2" layer="51"/>
-<wire x1="12.22" y1="-1.5" x2="12.22" y2="1.5" width="0.254" layer="51"/>
-<wire x1="9.62" y1="-3" x2="7.97" y2="-3" width="0.254" layer="51"/>
-<wire x1="7.97" y1="2.25" x2="7.97" y2="3" width="0.254" layer="51"/>
-<wire x1="7.97" y1="3" x2="9.62" y2="3" width="0.254" layer="51"/>
-<wire x1="7.97" y1="-3" x2="7.97" y2="-2.25" width="0.254" layer="51"/>
-<circle x="7.32" y="-2.5" radius="0.1414" width="0.4" layer="51"/>
-<rectangle x1="6.94" y1="-1.8" x2="8.29" y2="-1.2" layer="51" rot="R180"/>
-<rectangle x1="6.94" y1="-0.8" x2="8.29" y2="-0.2" layer="51" rot="R180"/>
-<rectangle x1="6.94" y1="0.2" x2="8.29" y2="0.8" layer="51" rot="R180"/>
-<rectangle x1="6.94" y1="1.2" x2="8.29" y2="1.8" layer="51" rot="R180"/>
-<rectangle x1="10.3" y1="-3.4" x2="12.29" y2="-2.2" layer="51" rot="R180"/>
-<rectangle x1="10.3" y1="2.2" x2="12.29" y2="3.4" layer="51" rot="R180"/>
-</package>
-<package name="QWIIC_BOARD_MOUNT_NOHOLES">
-<wire x1="-12.7" y1="12.7" x2="12.7" y2="12.7" width="0.127" layer="51"/>
-<wire x1="12.7" y1="12.7" x2="12.7" y2="-12.7" width="0.127" layer="51"/>
-<wire x1="12.7" y1="-12.7" x2="-12.7" y2="-12.7" width="0.127" layer="51"/>
-<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="12.7" width="0.127" layer="51"/>
-<text x="0" y="0" size="0.508" layer="51" ratio="15" align="center">Qwiic Board</text>
-<circle x="-1.27" y="-11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="-3.81" y="-11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="1.27" y="-11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="3.81" y="-11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="-2.54" y="11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="-5.08" y="11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="0" y="11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="2.54" y="11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="5.08" y="11.43" radius="0.7239" width="0.5588" layer="51"/>
-<wire x1="-12.22" y1="1.5" x2="-12.22" y2="-1.5" width="0.254" layer="51"/>
-<wire x1="-9.62" y1="3" x2="-7.97" y2="3" width="0.254" layer="51"/>
-<wire x1="-7.97" y1="-2.25" x2="-7.97" y2="-3" width="0.254" layer="51"/>
-<wire x1="-7.97" y1="-3" x2="-9.62" y2="-3" width="0.254" layer="51"/>
-<wire x1="-7.97" y1="3" x2="-7.97" y2="2.25" width="0.254" layer="51"/>
-<circle x="-7.32" y="2.5" radius="0.1414" width="0.4" layer="51"/>
-<rectangle x1="-8.29" y1="1.2" x2="-6.94" y2="1.8" layer="51"/>
-<rectangle x1="-8.29" y1="0.2" x2="-6.94" y2="0.8" layer="51"/>
-<rectangle x1="-8.29" y1="-0.8" x2="-6.94" y2="-0.2" layer="51"/>
-<rectangle x1="-8.29" y1="-1.8" x2="-6.94" y2="-1.2" layer="51"/>
-<rectangle x1="-12.29" y1="2.2" x2="-10.3" y2="3.4" layer="51"/>
-<rectangle x1="-12.29" y1="-3.4" x2="-10.3" y2="-2.2" layer="51"/>
-<wire x1="12.22" y1="-1.5" x2="12.22" y2="1.5" width="0.254" layer="51"/>
-<wire x1="9.62" y1="-3" x2="7.97" y2="-3" width="0.254" layer="51"/>
-<wire x1="7.97" y1="2.25" x2="7.97" y2="3" width="0.254" layer="51"/>
-<wire x1="7.97" y1="3" x2="9.62" y2="3" width="0.254" layer="51"/>
-<wire x1="7.97" y1="-3" x2="7.97" y2="-2.25" width="0.254" layer="51"/>
-<circle x="7.32" y="-2.5" radius="0.1414" width="0.4" layer="51"/>
-<rectangle x1="6.94" y1="-1.8" x2="8.29" y2="-1.2" layer="51" rot="R180"/>
-<rectangle x1="6.94" y1="-0.8" x2="8.29" y2="-0.2" layer="51" rot="R180"/>
-<rectangle x1="6.94" y1="0.2" x2="8.29" y2="0.8" layer="51" rot="R180"/>
-<rectangle x1="6.94" y1="1.2" x2="8.29" y2="1.8" layer="51" rot="R180"/>
-<rectangle x1="10.3" y1="-3.4" x2="12.29" y2="-2.2" layer="51" rot="R180"/>
-<rectangle x1="10.3" y1="2.2" x2="12.29" y2="3.4" layer="51" rot="R180"/>
-<circle x="-10.16" y="10.16" radius="1.778" width="0.127" layer="51"/>
-<circle x="10.16" y="10.16" radius="1.778" width="0.127" layer="51"/>
-<circle x="-10.16" y="-10.16" radius="1.778" width="0.127" layer="51"/>
-<circle x="10.16" y="-10.16" radius="1.778" width="0.127" layer="51"/>
-<text x="-7.62" y="-12.065" size="0.508" layer="51" ratio="15" align="center">0.13"</text>
-</package>
-</packages>
-<symbols>
-<symbol name="QWIIC_BOARD_FOOTPRINT">
-<wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
-<text x="0.127" y="0" size="1.016" layer="94" ratio="15" align="center">Qwiic Board
-Outline</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="QWIIC_BOARD_OUTLINE">
-<description>Standard Outline of a Qwiic Board. Good for defining a spot on shields and board areas in which to mount a Qwiic Board.</description>
-<gates>
-<gate name="G$1" symbol="QWIIC_BOARD_FOOTPRINT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="H" package="QWIIC_BOARD_MOUNT_HOLES">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="NH" package="QWIIC_BOARD_MOUNT_NOHOLES">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Displays">
 <description>&lt;h3&gt;SparkFun Displays&lt;/h3&gt;
 This library contains LCDs, OLEDs, etc. 
@@ -18985,6 +18987,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="4.4" y1="-0.1" x2="4.6" y2="0.9" layer="41"/>
 <rectangle x1="4.9" y1="-0.1" x2="5.1" y2="0.9" layer="41"/>
 <rectangle x1="5.4" y1="-0.1" x2="5.6" y2="0.9" layer="41"/>
+<rectangle x1="-6.95" y1="-2.5" x2="-6.55" y2="-1.7" layer="31"/>
+<rectangle x1="6.55" y1="-2.5" x2="6.95" y2="-1.7" layer="31"/>
 </package>
 </packages>
 <symbols>
@@ -19211,6 +19215,90 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Hardware">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+This library contains board components that are not electrical in nature, such as stand-offs, magnets, and Actobotics. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="STAND-OFF">
+<description>&lt;h3&gt;Standoff (#4 Screw)&lt;/h3&gt;
+&lt;p&gt;This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components.&lt;/p&gt;
+&lt;h4&gt;Devices Using&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;STAND-OFF&lt;/li&gt;&lt;/ul&gt;</description>
+<wire x1="0" y1="1.8542" x2="0" y2="-1.8542" width="0.2032" layer="41" curve="-180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="41" curve="-180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="-180"/>
+<circle x="0" y="0" radius="2.794" width="0.127" layer="39"/>
+<hole x="0" y="0" drill="3.302"/>
+<text x="0" y="2.032" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STAND-OFF-TIGHT">
+<description>&lt;h3&gt;Standoff (#4 Screw) - Tight fit around screw body&lt;/h3&gt;
+&lt;p&gt;This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components.&lt;/p&gt;
+&lt;h4&gt;Devices Using&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;STAND-OFF&lt;/li&gt;&lt;/ul&gt;</description>
+<wire x1="0" y1="1.8542" x2="0" y2="-1.8542" width="0.2032" layer="41" curve="-180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="41" curve="-180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="-180"/>
+<circle x="0" y="0" radius="2.794" width="0.127" layer="39"/>
+<hole x="0" y="0" drill="3.048"/>
+<text x="0" y="1.651" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.651" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="STAND-OFF">
+<description>&lt;h3&gt;Stand-Off Drill Hole&lt;/h3&gt;</description>
+<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="STAND-OFF" prefix="H">
+<description>&lt;h3&gt;Stand Off&lt;/h3&gt;
+&lt;p&gt;Drill holes for mechanically mounting via screws, standoffs, etc.&lt;/p&gt;
+&lt;p&gt;Note: Use the keepout ring to avoid running the screw head into surrounding components.
+&lt;h4&gt;Variant Overviews&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;STAND-OFF&lt;/b&gt; - Mechanical footprint for a &lt;b&gt;#4 phillips button head&lt;/b&gt; screw.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;STAND-OFF-TIGHT&lt;/b&gt; - Mechanical footprint for a &lt;b&gt;#4 phillips button head&lt;/b&gt; screw, &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Example SparkFun Products&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10453"&gt;Screw - Phillips Head (1/4", 4-40, 10 pack)&lt;/a&gt; (PRT-10453)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10452"&gt;Screw - Phillips Head (1/2", 4-40, 10 pack)&lt;/a&gt; (PRT-10452)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10451"&gt;Screw - Phillips Head (3/4", 4-40, 10 pack)&lt;/a&gt; (PRT-10451)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10450"&gt;Screw - Phillips Head (1", 4-40, 10 pack)&lt;/a&gt; (PRT-10450)&lt;/li&gt;</description>
+<gates>
+<gate name="G$1" symbol="STAND-OFF" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="STAND-OFF">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="TIGHT" package="STAND-OFF-TIGHT">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -19235,7 +19323,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device="">
 <attribute name="DESIGNER" value="Owen Lyke"/>
-<attribute name="REV" value="v02"/>
+<attribute name="REV" value="v10"/>
 </part>
 <part name="J1" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM"/>
@@ -19279,7 +19367,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R3" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="J4" library="SparkFun-Connectors" deviceset="CONN_01" device="PTH_NO_SILK_YES_STOP"/>
-<part name="U$1" library="SparkX" deviceset="QWIIC_BOARD_OUTLINE" device="H"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
 <part name="R8" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0603-1/10W-1%" value="2.2k"/>
 <part name="R9" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0603-1/10W-1%" value="2.2k"/>
@@ -19291,7 +19378,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY14" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="R10" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
 <part name="JP5" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_2-NC_TRACE" device="_SILK" value="I2C PU"/>
-<part name="JP6" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" value="PWR"/>
+<part name="JP6" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" value="LED"/>
+<part name="H1" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
+<part name="H2" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
+<part name="H3" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
+<part name="H4" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
+<part name="TP1" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3" value="12V"/>
 </parts>
 <sheets>
 <sheet>
@@ -19508,7 +19600,6 @@ when closed in 4WSPI mode</text>
 <attribute name="VALUE" x="137.16" y="22.606" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="140.97" y="18.542" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="U$1" gate="G$1" x="236.728" y="31.75"/>
 <instance part="LOGO1" gate="G$1" x="154.94" y="48.26"/>
 <instance part="R8" gate="G$1" x="27.94" y="22.86" rot="R90">
 <attribute name="NAME" x="26.416" y="22.86" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -19549,6 +19640,14 @@ when closed in 4WSPI mode</text>
 <instance part="JP6" gate="G$1" x="43.18" y="91.44" rot="R90">
 <attribute name="NAME" x="40.64" y="88.9" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="45.72" y="88.9" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+</instance>
+<instance part="H1" gate="G$1" x="243.84" y="27.94"/>
+<instance part="H2" gate="G$1" x="243.84" y="25.4"/>
+<instance part="H3" gate="G$1" x="246.38" y="25.4"/>
+<instance part="H4" gate="G$1" x="246.38" y="27.94"/>
+<instance part="TP1" gate="G$1" x="134.62" y="91.44" smashed="yes">
+<attribute name="NAME" x="139.7" y="91.44" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="139.7" y="88.9" size="1.778" layer="96" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -19808,14 +19907,18 @@ when closed in 4WSPI mode</text>
 <wire x1="116.84" y1="78.74" x2="116.84" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="81.28" x2="124.46" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="81.28" x2="132.08" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="81.28" x2="132.08" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="81.28" x2="132.08" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="132.08" y1="91.44" x2="132.08" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="78.74" x2="132.08" y2="81.28" width="0.1524" layer="91"/>
 <junction x="132.08" y="81.28"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="124.46" y1="78.74" x2="124.46" y2="81.28" width="0.1524" layer="91"/>
 <junction x="124.46" y="81.28"/>
 <pinref part="SUPPLY9" gate="G$1" pin="12V"/>
+<pinref part="TP1" gate="G$1" pin="1"/>
+<wire x1="134.62" y1="91.44" x2="132.08" y2="91.44" width="0.1524" layer="91"/>
+<junction x="132.08" y="91.44"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="VCC"/>
