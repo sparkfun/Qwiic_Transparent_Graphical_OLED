@@ -19398,8 +19398,8 @@ Cut allow MCU control of CS for 4WSPI mode</text>
 <text x="177.8" y="99.06" size="1.27" layer="97">Slave Address (7bit) is set according to:
 D/!C! : 7 bit address (HEX)
 -----------------
-1      :  0x3D (Default)
-0      :  0x3C</text>
+0      :  0x3C (Default)
+1      :  0x3D </text>
 <text x="193.04" y="93.98" size="1.27" layer="97">The BS1 pin determines I2C (HIGH, Default) 
 or !4WSPI! (LOW) interface selection. </text>
 <text x="210.82" y="86.36" size="1.27" layer="97">For I2C mode this jumper needs 
