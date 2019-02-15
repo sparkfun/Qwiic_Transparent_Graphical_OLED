@@ -5727,7 +5727,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="TP1" library="SparkFun-Connectors" package="PAD.03X.03" value="12V" x="6.477" y="17.145" rot="MR0"/>
 <element name="U$22" library="buzzard_labels" package="17" value="" x="21.971" y="24.384" rot="MR0"/>
 <element name="U$23" library="buzzard_labels" package="248" value="" x="6.985" y="24.384" rot="MR0"/>
-<element name="U$26" library="SparkFun-Displays" package="EXT_DISP" value="EXTERNAL_DISP-UG-2856KLBAG01" x="-19.05" y="-15.24"/>
+<element name="U$26" library="SparkFun-Displays" package="EXT_DISP" value="EXTERNAL_DISP-UG-2856KLBAG01" x="-19.05" y="-15.24">
+<attribute name="PROD_ID" value="LCD-14194" x="-19.05" y="-15.24" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">

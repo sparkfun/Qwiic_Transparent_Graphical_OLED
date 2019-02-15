@@ -19122,7 +19122,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 <device name="-UG-2856KLBAG01" package="EXT_DISP">
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="LCD-14194"/>
+</technology>
 </technologies>
 </device>
 </devices>
