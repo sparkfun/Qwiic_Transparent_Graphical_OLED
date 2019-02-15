@@ -18990,6 +18990,51 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-6.95" y1="-2.5" x2="-6.55" y2="-1.7" layer="31"/>
 <rectangle x1="6.55" y1="-2.5" x2="6.95" y2="-1.7" layer="31"/>
 </package>
+<package name="KWH018ST14-F01_HOLES">
+<description>This is a non-electrical part. It defines the hole locations for the KWH018ST14-F01 module. SparkFun PROD_ID LCD-14196</description>
+<hole x="-33.25" y="-0.85" drill="1.27"/>
+<hole x="-33.25" y="-46.15" drill="1.27"/>
+<hole x="-0.85" y="-46.15" drill="1.27"/>
+<text x="-32.41" y="-4.71" size="1.524" layer="51" font="vector">This side up (SCREEN UP)</text>
+<wire x1="-27.3" y1="-77" x2="-6.8" y2="-77" width="0.1524" layer="48"/>
+<wire x1="-6.8" y1="-77" x2="-6.8" y2="-73.5" width="0.1524" layer="48"/>
+<wire x1="-6.8" y1="-73.5" x2="-27.3" y2="-73.5" width="0.1524" layer="48"/>
+<wire x1="-27.3" y1="-73.5" x2="-27.3" y2="-77" width="0.1524" layer="48"/>
+<wire x1="-27.3" y1="-73.5" x2="-27.3" y2="-57.3" width="0.1524" layer="48"/>
+<wire x1="-27.3" y1="-57.3" x2="-32.05" y2="-57.3" width="0.1524" layer="48"/>
+<wire x1="-32.05" y1="-57.3" x2="-32.05" y2="-49" width="0.1524" layer="48"/>
+<wire x1="-32.05" y1="-49" x2="-27.3" y2="-49" width="0.1524" layer="48"/>
+<wire x1="-27.3" y1="-49" x2="-27.3" y2="-47" width="0.1524" layer="48"/>
+<wire x1="-27.3" y1="-47" x2="-6.8" y2="-47" width="0.1524" layer="51"/>
+<wire x1="-6.8" y1="-47" x2="-6.8" y2="-49" width="0.1524" layer="48"/>
+<wire x1="-6.8" y1="-49" x2="-3.05" y2="-49" width="0.1524" layer="48"/>
+<wire x1="-3.05" y1="-49" x2="-3.05" y2="-57.3" width="0.1524" layer="48"/>
+<wire x1="-3.05" y1="-57.3" x2="-6.8" y2="-57.3" width="0.1524" layer="48"/>
+<wire x1="-6.8" y1="-57.3" x2="-6.8" y2="-73.5" width="0.1524" layer="48"/>
+<wire x1="-33.25" y1="-46.15" x2="-0.85" y2="-46.15" width="0.1524" layer="49"/>
+<wire x1="-17.05" y1="-45.85" x2="-17.05" y2="-46.45" width="0.1524" layer="49"/>
+<wire x1="-33.25" y1="-46.15" x2="-33.25" y2="-0.85" width="0.1524" layer="49"/>
+<wire x1="-33.55" y1="-23.5" x2="-32.95" y2="-23.5" width="0.1524" layer="49"/>
+<wire x1="-34.05" y1="-47" x2="-0.05" y2="-47" width="0.1524" layer="51"/>
+<wire x1="-0.05" y1="-47" x2="0" y2="0" width="0.1524" layer="51"/>
+<wire x1="0" y1="0" x2="-34.05" y2="0" width="0.1524" layer="51"/>
+<wire x1="-34.05" y1="0" x2="-34.05" y2="-47" width="0.1524" layer="51"/>
+<text x="-26.274" y="-75.876" size="1.27" layer="48" font="vector">Contacts this side</text>
+<wire x1="-27.3" y1="-47" x2="-6.8" y2="-47" width="0.1524" layer="52"/>
+<wire x1="-34.05" y1="-47" x2="-0.05" y2="-47" width="0.1524" layer="52"/>
+<wire x1="-0.05" y1="-47" x2="0" y2="0" width="0.1524" layer="52"/>
+<wire x1="0" y1="0" x2="-34.05" y2="0" width="0.1524" layer="52"/>
+<wire x1="-34.05" y1="0" x2="-34.05" y2="-47" width="0.1524" layer="52"/>
+<text x="-26.7" y="-72.9" size="1.778" layer="48" font="vector">1</text>
+<text x="-10.1" y="-72.9" size="1.778" layer="48" font="vector">40</text>
+</package>
+<package name="EXT_DISP">
+<text x="-11.43" y="1.27" size="1.778" layer="51">External Display</text>
+<wire x1="-12.7" y1="0" x2="-12.7" y2="3.81" width="0.1524" layer="51"/>
+<wire x1="-12.7" y1="3.81" x2="13.97" y2="3.81" width="0.1524" layer="51"/>
+<wire x1="13.97" y1="3.81" x2="13.97" y2="0" width="0.1524" layer="51"/>
+<wire x1="13.97" y1="0" x2="-12.7" y2="0" width="0.1524" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SAS1-1U001-A_I2C_4WSPI">
@@ -19014,6 +19059,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="NC/D2" x="10.16" y="-2.54" visible="pin" length="short" rot="R180"/>
 <pin name="BS1" x="10.16" y="15.24" visible="pin" length="short" rot="R180"/>
 <pin name="BS2" x="10.16" y="12.7" visible="pin" length="short" rot="R180"/>
+</symbol>
+<symbol name="EXTERNAL_MODULE">
+<text x="-13.716" y="0.762" size="1.27" layer="94">Ext. Display Module</text>
+<wire x1="-15.24" y1="0" x2="-15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="-15.24" y2="0" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -19044,6 +19096,33 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name="">
 <attribute name="PROD_ID" value="CONN-14195" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="EXTERNAL_DISP">
+<description>&lt;h3&gt;External Display Device&lt;/h3&gt;
+&lt;p&gt;Use this device to represent a display module that you connect to your board with a connector. (The connector will be electrically linked to the symbol for your display and connected to traces) Using this along with a footprint of the display module outline will allow the BOM utility to find the correct PROD_ID for the module. Then you can move it to the BOM list (it will be in non-BOM list unless it has a hardware element like holes or pads)&lt;/p&gt;
+&lt;p&gt;Variants:
+&lt;ul&gt;&lt;li&gt;&lt;b&gt;KWH018ST14-F01&lt;/b&gt;A footprint of the KWH018ST14-F01 with holes&lt;/li&gt;
+&lt;p&gt;SparkFun Products:
+&lt;ul&gt;&lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="EXTERNAL_MODULE" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="-KWH018ST14-F01" package="KWH018ST14-F01_HOLES">
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="LCD-14196" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-UG-2856KLBAG01" package="EXT_DISP">
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -19384,6 +19463,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="H3" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="H4" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="TP1" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3" value="12V"/>
+<part name="U$26" library="SparkFun-Displays" deviceset="EXTERNAL_DISP" device="-UG-2856KLBAG01"/>
 </parts>
 <sheets>
 <sheet>
@@ -19659,6 +19739,7 @@ to be closed. Open for 4WSPI mode</text>
 <attribute name="NAME" x="139.7" y="96.52" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="139.7" y="93.98" size="1.778" layer="96" font="vector"/>
 </instance>
+<instance part="U$26" gate="G$1" x="78.74" y="124.46"/>
 </instances>
 <busses>
 </busses>
