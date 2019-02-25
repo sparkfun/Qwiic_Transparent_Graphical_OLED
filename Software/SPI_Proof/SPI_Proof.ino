@@ -44,11 +44,23 @@
 //#define RD  P3_0        // Read Signal
 //#define WR  P3_1        // Write Signal
 
-#define SCLK_PIN 13
-#define SDIN_PIN 11
+//#define SCLK_PIN 13
+//#define SDIN_PIN 11
+//#define RES_PIN 3
+//#define CS_PIN 4
+//#define DC_PIN 5
+
+#include <SPI.h>
+
+#define UG2856KLBAG01_SPI_FREQ_MAX   1000000
+#define UG2856KLBAG01_SPI_MODE    SPI_MODE3
+#define UG2856KLBAG01_SPI_ORDER   MSBFIRST
+
+#define SCLK_PIN 18
+#define SDIN_PIN 23
 #define RES_PIN 2
-#define CS_PIN 0
-#define DC_PIN 1
+#define CS_PIN 4
+#define DC_PIN 5
 
 
 //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -56,24 +68,28 @@
 //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 void uDelay(unsigned char l)
 {
-  while(l--);
+//  while(l--);
+  delayMicroseconds(l);
 }
 
 
 void Delay(unsigned char n)
 {
-unsigned char i,j,k;
+//unsigned char i,j,k;
+//
+//  for(k=0;k<n;k++)
+//  {
+//    for(i=0;i<131;i++)
+//    {
+//      for(j=0;j<15;j++)
+//      {
+//        uDelay(200);  
+//      }
+//    }
+//  }
 
-  for(k=0;k<n;k++)
-  {
-    for(i=0;i<131;i++)
-    {
-      for(j=0;j<15;j++)
-      {
-        uDelay(200);  
-      }
-    }
-  }
+  delay(n);
+
 }
 
 
@@ -85,20 +101,28 @@ void Write_Command(unsigned char Data)
 {
 unsigned char i;
 
+  SPI.beginTransaction(SPISettings(UG2856KLBAG01_SPI_FREQ_MAX, UG2856KLBAG01_SPI_ORDER, UG2856KLBAG01_SPI_MODE));
+
   digitalWrite(CS_PIN, 0);
   digitalWrite(DC_PIN, 0);
-  for (i=0; i<8; i++)
-  {
-    digitalWrite(SCLK_PIN, 0);
-    digitalWrite(SDIN_PIN, (Data&0x80)>>7);
-    Data = Data << 1;
+//  for (i=0; i<8; i++)
+//  {
+//    digitalWrite(SCLK_PIN, 0);
+//    if((Data&0x80)){ digitalWrite(SDIN_PIN, HIGH); }
+//    else{ digitalWrite(SDIN_PIN, LOW); }
+//    Data = Data << 1;
 //    uDelay(1);
-    digitalWrite(SCLK_PIN, 1);
+//    digitalWrite(SCLK_PIN, 1);
 //    uDelay(1);
-  }
-//  digitalWrite(SCLK_PIN, 0);
+//  }
+////  digitalWrite(SCLK_PIN, 0);
+
+  SPI.transfer(Data);
+
   digitalWrite(DC_PIN, 1);
   digitalWrite(CS_PIN, 1);
+
+  SPI.endTransaction();
 }
 
 
@@ -106,20 +130,29 @@ void Write_Data(unsigned char Data)
 {
 unsigned char i;
 
+  SPI.beginTransaction(SPISettings(UG2856KLBAG01_SPI_FREQ_MAX, UG2856KLBAG01_SPI_ORDER, UG2856KLBAG01_SPI_MODE));
+
   digitalWrite(CS_PIN, 0);
   digitalWrite(DC_PIN, 1);
-  for (i=0; i<8; i++)
-  {
-    digitalWrite(SCLK_PIN, 0);
-    digitalWrite(SDIN_PIN, (Data&0x80)>>7);
-    Data = Data << 1;
+//  for (i=0; i<8; i++)
+//  {
+//    digitalWrite(SCLK_PIN, 0);
+//    if((Data&0x80)){ digitalWrite(SDIN_PIN, HIGH); }
+//    else{ digitalWrite(SDIN_PIN, LOW); }
+//    Data = Data << 1;
 //    uDelay(1);
-    digitalWrite(SCLK_PIN, 1);
+//    digitalWrite(SCLK_PIN, 1);
 //    uDelay(1);
-  }
-//  digitalWrite(SCLK_PIN, 0);
+//  }
+////  digitalWrite(SCLK_PIN, 0);
+
+  SPI.transfer(Data);
+
   digitalWrite(DC_PIN, 1);
   digitalWrite(CS_PIN, 1);
+
+  SPI.endTransaction();
+  
 }
 #endif
 
@@ -1143,6 +1176,8 @@ void setup() {
   digitalWrite(RES_PIN, HIGH);
   digitalWrite(CS_PIN, HIGH);
   digitalWrite(DC_PIN, HIGH);
+
+  SPI.begin();
 
 
 //  P1=0xFF;
