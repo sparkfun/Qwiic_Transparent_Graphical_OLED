@@ -15,7 +15,6 @@ Repository Contents
 -------------------
 
 * **/Documentation** - Data sheets, additional product information
-* **/Enclosure** - Enclosure files 
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Software** - Related software for the <PRODUCT NAME>
 
